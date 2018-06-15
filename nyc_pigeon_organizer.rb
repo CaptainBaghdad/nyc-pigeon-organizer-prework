@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
   data.each do |kk,vv|
     vv.each do |e|
       
-  puts e
+  puts "this is e #{e}"
 end
   end
    end
