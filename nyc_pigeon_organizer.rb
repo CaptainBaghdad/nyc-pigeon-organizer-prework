@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   new_hash = {}
   arr =[]
   data.select do |k,v|
-     v.each do |kk,vv|
+     v.select do |kk,vv|
        vv.uniq
         arr << vv
         
