@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
   data.each do |kk,vv|
     vv.each do |e|
       
-  puts v[kk] = [] << e
+  puts v[kk] = [] << e.to_s
 end
   end
    end
