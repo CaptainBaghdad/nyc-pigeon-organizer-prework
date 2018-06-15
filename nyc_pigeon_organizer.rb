@@ -16,9 +16,11 @@ def nyc_pigeon_organizer(data)
     #puts "This is the values #{vv}"
     v[kk] =[]
     vv.each do |key,value|
-      puts "deeeep KEY #{key}"
+      puts "deeeep KEY #{key}" 
       puts "deeeep VALUE #{value}"
-      
+      if value.include?(k.to_s)
+        
+      end
  
 end
   end
