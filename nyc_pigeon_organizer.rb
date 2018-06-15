@@ -12,7 +12,10 @@ def nyc_pigeon_organizer(data)
   
   new_hash.each do |k,v|  
   data.each do |kk,vv|
-  puts v[kk] = [] << vv
+    vv.each do |e|
+      
+  puts v[kk] = [] << e
+end
   end
    end
   new_hash 
