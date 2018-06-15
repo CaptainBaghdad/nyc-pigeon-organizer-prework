@@ -19,7 +19,7 @@ def nyc_pigeon_organizer(data)
       puts "deeeep KEY #{key}" 
       puts "deeeep VALUE #{value}"
       if value.include?(k.to_s)
-        v[kk] << key
+        v[kk] << key.to_s
       end
  
 end
