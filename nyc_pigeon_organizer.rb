@@ -14,6 +14,7 @@ def nyc_pigeon_organizer(data)
   data.each do |kk,vv|
     puts "This is the keys #{kk}"
     puts "This is the values #{vv}"
+    v[kk] =[]
     vv.each do |e|
       
  
