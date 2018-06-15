@@ -5,11 +5,10 @@ def nyc_pigeon_organizer(data)
   data.each do |k,v|
      v.each do |kk,vv|
      arr << vv 
-      
-       
-        
-     end 
+       end 
   end
-   arr.flatten.uniq.length
+   name_keys = arr.flatten.uniq
+   name_keys.each{|ele| new_hash[ele]}
+   new_hash
    
 end
