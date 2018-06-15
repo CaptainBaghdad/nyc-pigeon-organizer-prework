@@ -12,9 +12,11 @@ def nyc_pigeon_organizer(data)
   
   new_hash.each do |k,v|  
   data.each do |kk,vv|
+    puts "This is the keys #{kk}"
+    puts "This is the values #{vv}"
     vv.each do |e|
       
-  puts "this is e #{e}"
+ 
 end
   end
    end
