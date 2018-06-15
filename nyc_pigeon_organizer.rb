@@ -4,8 +4,8 @@ def nyc_pigeon_organizer(data)
   arr =[]
   data.select do |k,v|
      v.select do |kk,vv|
-       vv.uniq
-        arr << vv
+       
+        arr <<vv.uniq
         
      end 
   end
