@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   data.select do |k,v|
      v.select do |kk,vv|
        
-        arr <<vv.uniq
+        arr << vv.uniq
         
      end 
   end
