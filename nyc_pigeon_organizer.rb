@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
        end 
   end
    name_keys = arr.flatten.uniq
-   name_keys.each{|ele| new_hash[ele]}
+   name_keys.each{|ele| new_hash[ele] = ""}
    new_hash
    
 end
