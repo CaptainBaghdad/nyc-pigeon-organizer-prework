@@ -10,5 +10,6 @@ def nyc_pigeon_organizer(data)
         
      end 
   end
-   arr.length
+   name_keys = arr.uniq 
+   puts name_keys.length
 end
