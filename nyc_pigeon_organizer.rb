@@ -14,12 +14,12 @@ def nyc_pigeon_organizer(data)
   data.each do |kk,vv|
     #puts "This is the keys #{kk}"
     #puts "This is the values #{vv}"
-    v[kk] =[]
+     v[kk] =[]
     vv.each do |key,value|
       puts "deeeep KEY #{key}" 
       puts "deeeep VALUE #{value}"
       if value.include?(k.to_s)
-        
+        v[kk] << k.to_s
       end
  
 end
