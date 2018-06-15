@@ -10,6 +10,6 @@ def nyc_pigeon_organizer(data)
         
      end 
   end
-   arr.each{|ele| puts "this is the ele #{ele}"}
+   arr.flatten.uniq.length
    
 end
