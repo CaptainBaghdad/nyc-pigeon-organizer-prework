@@ -12,8 +12,8 @@ def nyc_pigeon_organizer(data)
   
   new_hash.each do |k,v|  
   data.each do |kk,vv|
-    puts "This is the keys #{kk}"
-    puts "This is the values #{vv}"
+    #puts "This is the keys #{kk}"
+    #puts "This is the values #{vv}"
     v[kk] =[]
     vv.each do |key,value|
       puts "deeeep KEY #{key}"
